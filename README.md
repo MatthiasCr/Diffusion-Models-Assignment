@@ -1,6 +1,16 @@
 # Diffusion Models Assignment
 
-The notebook uses a pretrained diffusion model to generate images of flowers. The weights for this model are stored in the [releases](https://github.com/MatthiasCr/Diffusion-Models-Assignment/releases/tag/v1) section of this repo. The notebook downloads and uses these weights automatically.
+This is an Assignment in the Seminar "Applied Hands-On Computer Vision" at HPI. It is about Denoising Diffusion Probabilistic Models (DDPM). The notebook uses a pretrained diffusion model to generate images of flowers. The weights for this model are stored in the [releases](https://github.com/MatthiasCr/Diffusion-Models-Assignment/releases/tag/v1) section of this repo. The notebook downloads and uses these weights automatically.
+
+## Dataset of generated Images
+
+[TODO]()
+
+## W&B Project
+
+The generated images and all metrics and metadata is logged to the following W&B project:
+
+[TODO]()
 
 ## Running on Google Colab
 
