@@ -37,6 +37,6 @@ if "google.colab" in sys.modules:
 
 This clones the repo and sets it as working directory. Now the code inside the `utils` directory can be used by the notebook.
 
-2. **Huggingface Setup:** Set a `HF_TOKEN=<your_huggingface_token>` as Colab Secret so the notbook can load models and push the final dataset to huggingface.
+2. **Huggingface Setup:** Set a `HF_TOKEN=<your_huggingface_token>` as Colab Secret so the notebook can load models and push the final dataset to huggingface.
 
 3. **W&B Setup:** Set the constants `WANDB_TEAM_NAME` to your W&B team name and `WANDB_PROJECT_NAME` to a name for a (new) project. Execute the cell that contains `wandb.login()` and insert your W&B token
