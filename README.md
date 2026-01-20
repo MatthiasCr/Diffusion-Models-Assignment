@@ -4,13 +4,15 @@ This is an Assignment in the Seminar "Applied Hands-On Computer Vision" at HPI. 
 
 ## Dataset of generated Images
 
+The final dataset containing 128 generated images of flowers is uploaded to Huggingface:
+
 [https://huggingface.co/datasets/MatthiasCr/generated_flowers](https://huggingface.co/datasets/MatthiasCr/generated_flowers)
 
 ![](results/hf_dataset.png)
 
 ## W&B Project
 
-The generated images and all metrics and metadata is logged to the following W&B project:
+The generated images and all metrics and metadata is logged to the following Weights & Biases project:
 
 [https://wandb.ai/matthiascr-hpi-team/diffusion_model_assessment](https://wandb.ai/matthiascr-hpi-team/diffusion_model_assessment)
 
