@@ -19,7 +19,7 @@ if "google.colab" in sys.modules:
     %cd Diffusion-Models-Assignment
 ```
 
-This clones the repo and sets it as working directory.
+This clones the repo and sets it as working directory. Now the code inside the src directory can be used by the notebook.
 
 2. **Huggingface Setup:** Set a HF_TOKEN=<your_huggingface_token> as Colab Secret so the notbook can push the dataset to huggingface.
 
