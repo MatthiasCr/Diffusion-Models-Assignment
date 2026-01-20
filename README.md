@@ -4,13 +4,17 @@ This is an Assignment in the Seminar "Applied Hands-On Computer Vision" at HPI. 
 
 ## Dataset of generated Images
 
-[TODO]()
+[https://huggingface.co/datasets/MatthiasCr/generated_flowers](https://huggingface.co/datasets/MatthiasCr/generated_flowers)
+
+![](results/hf_dataset.png)
 
 ## W&B Project
 
 The generated images and all metrics and metadata is logged to the following W&B project:
 
-[TODO]()
+[https://wandb.ai/matthiascr-hpi-team/diffusion_model_assessment](https://wandb.ai/matthiascr-hpi-team/diffusion_model_assessment)
+
+![](results/wandb_overview.png)
 
 ## Running on Google Colab
 
@@ -31,6 +35,6 @@ if "google.colab" in sys.modules:
 
 This clones the repo and sets it as working directory. Now the code inside the src directory can be used by the notebook.
 
-2. **Huggingface Setup:** Set a HF_TOKEN=<your_huggingface_token> as Colab Secret so the notbook can push the dataset to huggingface.
+2. **Huggingface Setup:** Set a HF_TOKEN=<your_huggingface_token> as Colab Secret so the notbook can load models and push the final dataset to huggingface.
 
-3. **W&B Setup:** Set the constants WANDB_TEAM_NAME to your W&B team name and WANDB_PROJECT_NAME to a name for a (new) project. Execute the cell that contains !wandb login and insert your W&B token
+3. **W&B Setup:** Set the constants WANDB_TEAM_NAME to your W&B team name and WANDB_PROJECT_NAME to a name for a (new) project. Execute the cell that contains wandb.login() and insert your W&B token
