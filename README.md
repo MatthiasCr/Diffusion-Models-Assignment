@@ -20,8 +20,8 @@ The generated images and all metrics and metadata is logged to the following Wei
 
 ## Running on Google Colab
 
-The notebook can be executed in google colab.
-1. Open the notebook `diffusion_models_assignment.ipynb` in colab by navigating to it on github and then change the url from github.com to githubtocolab.com.
+The notebook can be executed in Google Colab.
+1. Open the notebook `diffusion_models_assignment.ipynb` in Colab by navigating to it on Github and then change the url from github.com to githubtocolab.com.
     Execute the first cell in the notebook which contains:
 
 ```python
@@ -35,8 +35,8 @@ if "google.colab" in sys.modules:
     %cd Diffusion-Models-Assignment
 ```
 
-This clones the repo and sets it as working directory. Now the code inside the src directory can be used by the notebook.
+This clones the repo and sets it as working directory. Now the code inside the `utils` directory can be used by the notebook.
 
-2. **Huggingface Setup:** Set a HF_TOKEN=<your_huggingface_token> as Colab Secret so the notbook can load models and push the final dataset to huggingface.
+2. **Huggingface Setup:** Set a `HF_TOKEN=<your_huggingface_token>` as Colab Secret so the notbook can load models and push the final dataset to huggingface.
 
-3. **W&B Setup:** Set the constants WANDB_TEAM_NAME to your W&B team name and WANDB_PROJECT_NAME to a name for a (new) project. Execute the cell that contains wandb.login() and insert your W&B token
+3. **W&B Setup:** Set the constants `WANDB_TEAM_NAME` to your W&B team name and `WANDB_PROJECT_NAME` to a name for a (new) project. Execute the cell that contains `wandb.login()` and insert your W&B token
