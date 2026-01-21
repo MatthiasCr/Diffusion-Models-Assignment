@@ -21,7 +21,12 @@ The generated images and all metrics and metadata is logged to the following Wei
 ## Running on Google Colab
 
 The notebook can be executed in Google Colab.
-1. Open the notebook `diffusion_models_assignment.ipynb` in Colab by navigating to it on Github and then change the url from github.com to githubtocolab.com.
+
+<a target="_blank" href="https://colab.research.google.com/github/MatthiasCr/Diffusion-Models-Assignment/blob/main/diffusion_models_assignment.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+1. Open the notebook `diffusion_models_assignment.ipynb` in Colab by clicking the badge above.
     Execute the first cell in the notebook which contains:
 
 ```python
